@@ -88,6 +88,53 @@ export const myProjects = [
     ],
   },
   {
+    title: "Y Combinator Directory",
+    desc: "A full-stack web application that allows users to explore, search, and share Y Combinator startups. Instantly view, filter, and discover startups by title, founder, or category, with real-time updates and rich details for each company.",
+    subdesc:
+      "Built with Next.js (React 19), TypeScript, and Tailwind CSS for a modern, performant UI. The backend leverages Sanity CMS for structured content and real-time updates, while authentication is handled via NextAuth.js with GitHub OAuth. The app features server components, partial pre-rendering (PPR), server actions, and markdown support for startup pitches. Users can log in, submit their own startups, and view detailed profiles, all with instant updates and enterprise-grade performance.",
+    href: "https://y-combinator-three.vercel.app/", // Replace with your actual deployed URL
+    texture: "/textures/project/yc-directory.mp4",
+    logo: "/assets/yc-logo.png",
+    logoStyle: {
+      backgroundColor: "#F5F5F5",
+      border: "0.2px solid #E5E5E5",
+      boxShadow: "0px 0px 60px 0px #FF80004D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+      {
+        id: 4,
+        name: "Sanity.io",
+        path: "/assets/sanity.svg",
+      },
+      {
+        id: 5,
+        name: "NextAuth.js",
+        path: "/assets/nextauth.svg",
+      },
+      {
+        id: 6,
+        name: "GitHub OAuth",
+        path: "/assets/github.svg",
+      },
+    ],
+  },
+  {
     title: "Quick News",
     desc: "QuickNews is a modern and visually appealing news app built using React and Bootstrap. It offers a seamless user experience with a sleek neumorphic design and the ability to toggle between light and dark modes. The app is mobile-responsive, ensuring an optimized experience across all devices.",
     subdesc:
